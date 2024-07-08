@@ -1,7 +1,7 @@
 pipeline{
     agnet any
     stages{
-        stage("test"){
+        stage('test'){
             steps{
                 sh '''
                 echo "this is my frst command"
@@ -12,4 +12,5 @@ pipeline{
                 '''
             }
         }       
-   
+    }
+}
