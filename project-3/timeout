@@ -2,7 +2,6 @@ pipeline{
     agent any
     stages{
         stage('time out'){
-            retry(3){
                 sh '''
                 echo "hello world"
                 '''
