@@ -8,10 +8,8 @@ pipeline{
                 '''
                 sh '''
                 echo "bythe way this is my second command"
-                '''
                 df -kh
                 '''
             }
         }       
-    }
-}
+   
