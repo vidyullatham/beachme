@@ -1,0 +1,20 @@
+pipeline{
+    agnet any
+    stages{
+        stage("test"){
+            steps{
+                sh '''
+                echo "this is my frst command"
+                '''
+                sh '''
+
+                echo "bythe way this is my second command"
+                '''
+                df -kh
+                '''
+            }
+
+        }
+        }
+    }
+}
